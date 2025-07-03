@@ -1,1 +1,3 @@
-<svg xmlns="http://www.w3.org/2000/svg" onload="alert('XSS')" />
+<svg xmlns="http://www.w3.org/2000/svg">
+  <script>alert('XSS in SVG')</script>
+</svg>
