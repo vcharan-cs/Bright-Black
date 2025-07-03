@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="100">
+  <style>
+    text { fill: red; font-size: 24px; }
+    body::before {
+      content: "PDF INJECTION DETECTED";
+      color: red;
+      font-size: 32px;
+    }
+  </style>
+  <text x="10" y="50">Hello from injected SVG</text>
+</svg>
